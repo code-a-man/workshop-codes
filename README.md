@@ -68,10 +68,10 @@ function YasHesapla(yil){
   const suAn = new Date();
   const buSene = suAn.getFullYear();
   const yas = buSene - yil;
-  if (yas>18){
+  if (yas < 18){
     console.log("Çocuk")
   }
-  else if (yas>=18 && yas<=65){
+  else if ( yas>=18 && yas<=65){
     console.log("Yetişkin")
   }
   else {
