@@ -45,7 +45,7 @@ const dakika = new Date().getMinutes();
 if (saat>20 && dakika>30){
     console.log("20.30'dan sonra kapalıyız!");
 }
-else if (saat<8>) {
+else if (saat<8) {
     console.log("Saat 8'de açılıyoruz!");
 }
 else {
